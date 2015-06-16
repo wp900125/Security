@@ -4,11 +4,9 @@ import org.apache.commons.codec.binary.Base64;
 
 public class Base64Util {
 	private static String src="1234567890";
-	
 	public static void main(String[] args) {
 		bouncyCastleBase64(src);
 		apacheCommonsCodecBase64(src);
-		
 	}
 	
 	public static void apacheCommonsCodecBase64(String src){
