@@ -17,6 +17,7 @@ public class MDUtil {
 		jdkMD2(src);
 		bcMD4(src);
 		bcMD5(src);
+		ccMD5(src);
 	}
 
 	public static void jdkMD5(String src) {
